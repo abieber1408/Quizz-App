@@ -2,15 +2,15 @@
 <html lang="en"6>
 
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="bookmarks.css">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="styles.css"> 
+     <script src="./profile.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <header class="menu-title">
     <title>Quiz App</title>
 </head>
@@ -21,55 +21,36 @@
 
 <body>
 
+  <fieldset>
+    <section> 
 
-        
+      <h2>Max Doe<img class="Profile-image" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Cat Photo">
+      </h2>
 
-    <fieldset>
-  
-        <legend>
-        <a href="#"><i class="fa fa-fw fa-bookmark"></i></a>
-        </legend>
+          <form class="profile__settings" aria-labelledby="title">  
+           </form>
 
-         <section>
-
-   
-
-            <h1>Loren Ipsum dolor sit?</h1>
-           <a><i class="fa fa-fw fa-user"></i></a>
-
-           <button class="button" href="Show-answer">Show answer</button>
-
-           <button class="button" href="Show-answer">Show answer</button>
-            <ul class="menu-bar">
-             <li>
-               <a class="button" href="#html">#html</a>
-               <a class="button" href="#flexbox">#flexbox</a>
-               <a class="button" href="#contact">Contact</a>
-            </li>
-           </ul>
-  
-         </section>
-
-    </fieldset>
-
- 
-  </section>
-
-    <fieldset>
-  
          <legend>
            <a href="#"><i class="fa fa-fw fa-bookmark"></i></a>
          </legend>
-  <section>
-   
-      <h1>Settings</h1>
+    
+      <h4>Settings</h4>
+      
+      <h4>Dark Mode</h4>
 
-      <button class="button" href="Show-answer">Show answer</button>
-   
-  </section>
+      <div>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+        <div class='ball'>
+      </label>
+    </div>  
 
 
-</fieldset>
+        </label>
+      </div>
+
+   </section>
+  </fieldset>
 
 <!--FOOTER AND NAVBAR-->
 
@@ -77,10 +58,11 @@
 
   <nav>                                                           
    <div class="navbar">
-     <a  href="#"><i class="fa fa-fw fa-home"></i></a> 
-     <a  href="#"><i class="fa fa-fw fa-bookmark"></i></a> 
-     <a class="active" href="#"><i class="fa fa-fw fa-user"></i></a>
-     </div>
+     <a  href="index.html"><i class="fa fa-fw fa-home"></i></a> 
+     <a  href="bookmarks.html"><i class="fa fa-fw fa-bookmark"></i></a> 
+     <a class="active" href="profile.html"><i class="fa fa-fw fa-user"></i></a>
+     <a href="form.html"><i class="fa fa-fw fa-plus"></i></a>
+    </div>
   </nav>
   
 </footer>
